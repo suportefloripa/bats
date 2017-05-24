@@ -1,3 +1,4 @@
+:: OBS: baixar o 7zip.exe e colocar na mesma pasta do .bat
 :: Colocar na mesma pasta em que sem encontra o arquivo .fdb que vai ser feito o backup
 :: Criar tarefa no windows para executar automaticamente
 ::Nome da Base sem o .FDB
