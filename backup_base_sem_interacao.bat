@@ -1,7 +1,7 @@
 :: Colocar na mesma pasta em que sem encontra o arquivo .fdb que vai ser feito o backup
 :: Criar tarefa no windows para executar automaticamente
 ::Nome da Base sem o .FDB
-SET NOME-DA-BASE=DIRECTA
+SET NOME-DA-BASE=ILUXBASE
 ::Deletar arquivos backups antigos (ex: S/N) ?
 SET deletar=S
 :: Numero de dias para manter os backups antigos? (ex: 5)
