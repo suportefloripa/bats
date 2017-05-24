@@ -21,7 +21,7 @@ SET mes=%DATE:~3,2%
 SET ano=%DATE:~6,6%
 SET data=%dia%-%mes%-%ano%
 
-@TITLE BackUp Base - Softilux - Rodrigo Motta
+@TITLE BackUp Base - Firebird - Rodrigo Motta
 @MODE CON:COLS=50 LINES=13
 @COLOR 1F
 setlocal enableextensions
@@ -64,6 +64,5 @@ exit
 FOR /F "TOKENS=1* DELIMS=/" %%A IN ('date/t') DO SET nowDay=%%A
 FORFILES /S /p %pasta% /d -%dias% /C "CMD /C echo @FILE @FDATE" >> %pasta%\%nowDay%.log
 FORFILES /S /p %pasta% /d -%dias% /c "CMD /C DEL @FILE /Q"
-::C:\ILUX\SYNC\Synchronizer.exe
 exit
 
